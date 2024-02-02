@@ -1,0 +1,62 @@
+ignore-empty-password
+font="FiraCode Nerd Font Bold"
+
+clock
+timestr=%T
+datestr=%a, %e of %B
+
+# Add current screenshot as wallpaper
+# screenshots
+
+# Add an image as a background  
+image=/home/LK/.config/swaylock/finalizer.png
+
+# Fade in time
+fade-in=1
+
+# Effect for background
+effect-blur=10x10
+# effect-greyscale
+effect-pixelate=5
+
+# Show/Hide indicator circle
+indicator
+
+# indicator
+indicator-radius=300
+
+indicator-thickness=0
+indicator-caps-lock
+
+# Define all colors
+key-hl-color=00000000
+separator-color=00000000
+
+inside-color=00000000
+inside-clear-color=00000000
+inside-caps-lock-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+
+ring-color=00000000
+ring-clear-color=00000000
+ring-caps-lock-color=00000000
+ring-ver-color=00000000
+ring-wrong-color=00000000
+
+line-color=00000000
+line-clear-color=00000000
+line-caps-lock-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+
+text-color=FF90BC
+text-clear-color=FF90BC
+text-ver-color=FF90BC
+text-wrong-color=FF90BC
+
+bs-hl-color=00000000
+caps-lock-key-hl-color=00000000
+caps-lock-bs-hl-color=00000000
+disable-caps-lock-text
+text-caps-lock-color=96EFFF
