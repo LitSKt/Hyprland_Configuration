@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 45, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
-    "modules-left": ["clock", "tray", "idle_inhibitor", "custom/wallpapers"],
+    "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/wallpapers"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
     "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "cpu", "memory", "temperature", "backlight", "battery", "custom/power"],
     "fixed-center": true,
@@ -133,6 +133,7 @@
 
     "tray": {
         "icon-size": 23,
+	"icon-theme": "Papirus",
         "spacing":10
     }, 
 
@@ -249,6 +250,13 @@
         "on-click": "wlogout -b 6",
         "interval": 86400, // once every day
         "tooltip": false
+    },
+
+    "custom/screenshot": {
+        "format": " ",
+	"on-click": "grimblast save",
+	"on-click-right": "grimblast save active",
+	"tooltip": false
     }
 
     /*"custom/media": {
