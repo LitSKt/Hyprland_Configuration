@@ -10,6 +10,7 @@ nvim
 kitty
 waybar
 rofi
+dunst
 
 pipewire-alsa
 pipewire-audio
