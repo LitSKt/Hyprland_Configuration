@@ -134,7 +134,7 @@
     "tray": {
         "icon-size": 23,
 	"icon-theme": "Papirus",
-        "spacing":10
+        "spacing": 8
     }, 
 
     "clock": {
@@ -254,8 +254,8 @@
 
     "custom/screenshot": {
         "format": " ",
-	"on-click": "grimblast save",
-	"on-click-right": "grimblast save active",
+	"on-click": "grimblast --notify save",
+	"on-click-right": "grimblast --notify save active",
 	"tooltip": false
     }
 
