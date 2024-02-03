@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 45, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
-    "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/wallpapers"],
+    "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
     "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "cpu", "memory", "temperature", "backlight", "battery", "custom/power"],
     "fixed-center": true,
@@ -256,6 +256,12 @@
         "format": " ",
 	"on-click": "grimblast --notify save",
 	"on-click-right": "grimblast --notify save active",
+	"tooltip": false
+    },
+
+    "custom/clipboardclear": {
+        "format": "󰃢 ",
+	"on-click": "bash /home/LK/clipboardclear.sh",
 	"tooltip": false
     }
 

@@ -214,6 +214,7 @@ button:hover {
 #backlight,
 #custom-power,
 #custom-screenshot,
+#custom-clipboardclear,
 #custom-wallpapers
 {
     color: @txt;
@@ -482,7 +483,7 @@ button:hover {
     border-width: 4px 4px 4px 0px;
     border-style: solid;
     color: @hbtu;
-    padding-left: 10px;
+    padding-left: 9px;
     padding-right: 14px;
     border-radius: 0px 20px 20px 0px;
     font-size: 18px;
@@ -493,5 +494,14 @@ button:hover {
     border-style: solid;
     border-width: 4px 0px 4px 0px;
     color: @hbtu;
+    padding-left: 11px;
+}
+
+#custom-clipboardclear {
+    background: @barbg;
+    border-style: solid;
+    border-width: 4px 0px 4px 0px;
+    color: @hbtu;
+    font-size: 20px;
     padding-left: 11px;
 }
