@@ -5,6 +5,9 @@ noto-fonts-emoji
 highlight
 grimblast-git
 cliphist
+libnotify
+ffmpegthumbnailer
+xdg-desktop-portal-hyprland
 
 nvim
 kitty
