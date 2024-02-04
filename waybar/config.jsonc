@@ -133,7 +133,6 @@
 
     "tray": {
         "icon-size": 23,
-	"icon-theme": "Papirus",
         "spacing": 8
     }, 
 
