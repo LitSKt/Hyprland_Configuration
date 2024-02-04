@@ -51,7 +51,7 @@
     "custom/wallpapers": {
         "format": " ",
 	"tooltip": false,
-	"on-click": "bash /home/LK/switcher.sh"
+	"on-click": "bash /home/LK/.config/waybar/scripts/switcher.sh"
     },
     
     "idle_inhibitor": {
@@ -79,7 +79,7 @@
 
     "memory": {
         "format": "󰍛 ",
-	"tooltip-format": "{used}G"
+	"tooltip-format": "{used}GiB"
     },
 
     "temperature": {
@@ -164,7 +164,7 @@
 
     "custom/clipboardclear": {
         "format": "󰃢 ",
-	"on-click": "bash /home/LK/clipboardclear.sh",
+	"on-click": "bash /home/LK/.config/waybar/scripts/clipboardclear.sh",
 	"tooltip": false
     }
 }

@@ -225,7 +225,7 @@ tooltip label {
     color: @hbtu;
     margin-top: 4px;
     margin-bottom: 4px;
-    padding-left: 13px;
+    margin-left: 13px;
 }
 
 #tray > .passive {
