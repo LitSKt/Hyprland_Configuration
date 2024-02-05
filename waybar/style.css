@@ -141,6 +141,7 @@ tooltip label {
 #tray,
 #idle_inhibitor,
 #memory,
+#disk,
 #battery,
 #temperature,
 #backlight,
@@ -185,6 +186,12 @@ tooltip label {
     margin-left: 16px;
 }
 
+#disk {
+    font-size: 21px;
+    padding-right: 7px;
+    padding-left: 2px;
+}
+
 #backlight {
     padding-left: 1px;
 }
@@ -217,7 +224,7 @@ tooltip label {
 
 
 #temperature {
-    padding-right: 13px;
+    padding-right: 14px;
 }
 
 #tray {

@@ -9,5 +9,5 @@ if [ -e "$target_directory" ]; then
     rm -f "$target_directory"
     notify-send "cliphist history has been removed"
 else
-    notify-send "$target_directory do not exist"
+    notify-send -u critical "$target_directory do not exist"
 fi

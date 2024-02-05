@@ -5,7 +5,7 @@
     "spacing": 0, // Gaps between modules (4px)
     "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
-    "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "temperature", "backlight", "battery", "custom/power"],
+    "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "disk", "temperature", "backlight", "battery", "custom/power"],
     "fixed-center": true,
     "mod": "dock",
 
@@ -79,7 +79,14 @@
 
     "memory": {
         "format": "󰍛 ",
+	"interval": 1,
 	"tooltip-format": "{used}GiB"
+    },
+
+    "disk": {
+	"format": "󰋊 ",
+	"tooltip-format": "{used}",
+	"interval": 1
     },
 
     "temperature": {

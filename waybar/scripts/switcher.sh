@@ -2,6 +2,16 @@
 
 directory=/home/LK/Pictures/Wallpapers
 
+#check exist
+if [ ! -d "$directory" ]; then
+	notify-send -u critical "no such directory found"
+fi
+
+#check empty
+if [ -z "$(ls -A $directory)" ]; then
+	notify-send -u critical "no wallpaper to switch"
+fi
+
 #get wallpapers
 files=()
 while IFS= read -r -d '' file; do
