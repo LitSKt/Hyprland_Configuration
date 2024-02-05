@@ -7,7 +7,7 @@ grimblast-git
 cliphist
 libnotify
 ffmpegthumbnailer
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 atool
 
 neovim
@@ -16,13 +16,13 @@ waybar
 rofi
 dunst
 mpv
-kvantum-git
+kvantum
 papirus-icon-theme
 unzip
 zip
 go-musicfox-git
 ranger
-nwg-look-bin
+nwg-look
 
 pipewire-alsa
 pipewire-audio
