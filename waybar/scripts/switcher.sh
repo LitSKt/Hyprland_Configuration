@@ -4,12 +4,12 @@ directory=/home/LK/Pictures/Wallpapers
 
 #check exist
 if [ ! -d "$directory" ]; then
-	notify-send -u critical "no such directory found"
+	notify-send -u critical "Failed!" "no such directory found"
 fi
 
 #check empty
 if [ -z "$(ls -A $directory)" ]; then
-	notify-send -u critical "no wallpaper to switch"
+	notify-send -u critical "Failed!" "no wallpaper to switch"
 fi
 
 #get wallpapers
@@ -32,5 +32,7 @@ for ((i=0; i<num_files; i++)); do
 		else
 			swww img "${files[i+1]}" --transition-fps 80 --transition-type grow --transition-pos top-right --transition-duration 1.3 --transition-bezier 0.43,1.19,1,0.4
 		fi
+	else
+		notify-send -u critical "Failed!" "you should init swww first"
 	fi
 done
