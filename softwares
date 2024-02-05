@@ -1,4 +1,3 @@
-(-git)
 brightnessctl
 ttf-firacode-nerd
 python-pillow
@@ -8,20 +7,20 @@ grimblast-git
 cliphist
 libnotify
 ffmpegthumbnailer
-xdg-desktop-portal-hyprland
+xdg-desktop-portal-hyprland-git
 atool
 
-nvim
+neovim-git
 kitty
 waybar
 rofi
 dunst
 mpv
-kvantum
+kvantum-git
 papirus-icon-theme
 unzip
 zip
-go-musicfox
+go-musicfox-git
 
 pipewire-alsa
 pipewire-audio
@@ -31,7 +30,7 @@ pavucontrol
 
 bluez
 bluez-utils  //sudo systemctl start bluetooth \n sudo systemctl enable bluetooth
-blueman
+blueman-git
 
 swaylock-effects
 swww
