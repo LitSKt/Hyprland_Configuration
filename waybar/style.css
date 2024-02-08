@@ -161,7 +161,7 @@ tooltip label {
 
 #clock {
     padding-left: 16px;
-    margin-left: 22px;
+    margin-left: 24px;
     padding-right: 17px;
     background-color: @barbg;
     border-width: 4px;
@@ -183,7 +183,7 @@ tooltip label {
     padding-right: 4px;
     border-radius: 20px 0px 0px 20px;
     padding-left: 20px;
-    margin-left: 16px;
+    margin-left: 18px;
 }
 
 #disk {
@@ -209,7 +209,7 @@ tooltip label {
     color: @hbtu;
     margin-top: 6px;
     margin-bottom: 2px;
-    margin-left: 14px;
+    margin-left: 15px;
     font-size: 20px;
 }
 
@@ -219,7 +219,7 @@ tooltip label {
     margin-top: 6px;
     margin-bottom: 2px;
     font-size: 20px;
-    margin-left: 12px;
+    margin-left: 13px;
 }
 
 
@@ -250,7 +250,7 @@ tooltip label {
     border-width: 4px 0px 4px 4px;
     border-style: solid;
     font-size: 18px;
-    margin-left: 12px;
+    margin-left: 14px;
     padding-left: 20px;
     padding-top: 1px;
     font-size: 20px;
@@ -261,7 +261,7 @@ tooltip label {
     border-width: 4px 0px 4px 4px;
     font-size: 18px;
     border-style: solid;
-    margin-left: 12px;
+    margin-left: 14px;
     background-color: @barbg;
     color: @hbtu;
     padding-left: 20px;
@@ -274,8 +274,8 @@ tooltip label {
     border-width: 4px;
     border-style: solid;
     color: @hbtu;
-    margin-right: 22px;
-    margin-left: 12px;
+    margin-right: 24px;
+    margin-left: 15px;
     padding-left: 6px;
     padding-right: 0px;
     border-radius: 20px;

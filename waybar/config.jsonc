@@ -28,6 +28,10 @@
         "rewrite": {
 	    "(.*)~": "$1Kitty 󰚺 ",
 	    "(.*) - Google Chrome": "$1  ",
+	    "(.*)QQ": "$1 QQ 󰘅 ",
+	    "(.*) - Visual Studio Code": "$1 󰨞 ",
+	    "(.*) - mpv": "$1  ",
+	    "(.*)musicfox": "$1 MusicFox  ",
 	    "(.*)Ranger": "$1 Ranger  "
         },
         "max-length": 50

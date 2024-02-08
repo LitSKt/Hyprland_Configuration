@@ -7,14 +7,14 @@
 
 {
     "label" : "logout",
-    "action" : "hyprctl dispatch exit 0",
+    "action" : "hyprctl dispatch exit",
     "text" : " Logout  ",
     "keybind" : "e"
 }
 
 {
     "label" : "suspend",
-    "action" : "swaylock -f && systemctl suspend",
+    "action" : "systemctl suspend",
     "text" : " Suspend ",
     "keybind" : "u"
 }

@@ -28,7 +28,7 @@
     width = (0, 250)
 
     # The maximum height of a single notification, excluding the frame.
-    height = 200
+    height = 150
 
     # Position the notification in the top right corner
     origin = top-right
@@ -65,7 +65,7 @@
     progress_bar_corner_radius = 5
 
     # Corner radius for the icon image.
-    icon_corner_radius = 16
+    icon_corner_radius = 18
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -83,13 +83,13 @@
     separator_height = 0
 
     # Padding between text and separator.
-    padding = 15
+    padding = 12
 
     # Horizontal padding.
-    horizontal_padding = 15
+    horizontal_padding = 14
 
     # Padding between text and icon.
-    text_icon_padding = 15
+    text_icon_padding = 14
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
