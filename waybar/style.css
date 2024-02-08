@@ -36,7 +36,7 @@ tooltip label {
 #workspaces {
     background: @litebg;
     color: @abtu;
-    margin: 4px 0px 6px 0px;
+    margin: 3px 0px 7px 0px;
     padding: 0px 0px 0px 20px;
     border-radius: 20px 0px 0px 20px;
     text-shadow: none;
@@ -83,7 +83,7 @@ tooltip label {
 #window {
     background: @litebg;
     border-radius: 0px 20px 20px 0px;
-    margin: 4px 0px 6px 0px;
+    margin: 3px 0px 7px 0px;
     padding-right: 22px;
     color: @abtu;
     font-size: 18px;
@@ -93,10 +93,7 @@ tooltip label {
 
 #taskbar {
     background: @litebg;
-    margin: 4px 0px 6px 0px;
-    /*font-weight: normal;
-    font-style: normal;
-    border: 3px;*/
+    margin: 3px 0px 7px 0px;
 }
 
 #taskbar button {
@@ -154,7 +151,7 @@ tooltip label {
     background-color: @litebg;
     border-width: 0px;
     border-color: @tolbg;
-    margin: 4px 0px 6px 0px;
+    margin: 3px 0px 7px 0px;
     font-size: 19px;
     text-shadow: none;
 }
@@ -201,14 +198,14 @@ tooltip label {
     color: @hbtu;
     font-size: 18px;
     margin-top: 7px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 #pulseaudio {
     background-color: @barbg;
     color: @hbtu;
     margin-top: 6px;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
     margin-left: 15px;
     font-size: 20px;
 }
@@ -217,7 +214,7 @@ tooltip label {
     background-color: @barbg;
     color: @hbtu;
     margin-top: 6px;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
     font-size: 20px;
     margin-left: 13px;
 }
@@ -228,11 +225,11 @@ tooltip label {
 }
 
 #tray {
-    background: @barbg;
-    color: @hbtu;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    background: @txt;
+    border-radius: 20px;
     margin-left: 13px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
 #tray > .passive {
@@ -270,16 +267,14 @@ tooltip label {
 }
 
 #custom-power {
-    background: @barbg;
-    border-width: 4px;
-    border-style: solid;
-    color: @hbtu;
+    background: @txt;
+    color: white;
     margin-right: 24px;
     margin-left: 15px;
-    padding-left: 6px;
-    padding-right: 0px;
     border-radius: 20px;
-    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 4px;
+    font-size: 21px;
 }
 
 #custom-wallpapers {
