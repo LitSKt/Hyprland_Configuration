@@ -2,7 +2,7 @@
 My Hyprland configurations  
 install nvidia (if you need) at first  
 Read softwares  
-./waybar/scripts/switcher.sh ./swaylock/config ./wlogout/style.css ./waybar/scripts/clipboardclear need you to change file path (write your owns) or they can not work well  
+IF THERE ARE SOFTWARES THAT CANNOT WORK PROPERLY, CHECK THE CONFIG FILES AND CHANGE THE PATH TO YOUR LOCAL ONES.
 Binds:  
 </t>super + enter: kitty  
 </t>super + e: ranger  
