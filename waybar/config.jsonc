@@ -32,6 +32,7 @@
 	    "(.*) - Visual Studio Code": "$1 󰨞 ",
 	    "(.*) - mpv": "$1  ",
 	    "(.*)musicfox": "$1 MusicFox  ",
+	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
 	    "(.*)Ranger": "$1 Ranger  "
         },
         "max-length": 50
