@@ -65,7 +65,7 @@
     progress_bar_corner_radius = 5
 
     # Corner radius for the icon image.
-    icon_corner_radius = 16
+    icon_corner_radius = 15
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -212,10 +212,10 @@
     # Scale small icons up to this size, set to 0 to disable. Helpful
     # for e.g. small files or high-dpi screens. In case of conflict,
     # max_icon_size takes precedence over this.
-    min_icon_size = 32
+    min_icon_size = 36
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 40
+    max_icon_size = 48
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
     # icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
