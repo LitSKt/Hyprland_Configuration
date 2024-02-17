@@ -1,7 +1,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 49, // Waybar height (to be removed for auto height)
+    "height": 53, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
     "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
@@ -19,7 +19,7 @@
     	"on-click": "activate",
     	"on-click-middle": "close",
 	"tooltip": false,
-	"max-length": 18
+	"max-length": 15
      },
 
      "hyprland/window": {
@@ -35,7 +35,7 @@
 	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
 	    "(.*)Ranger": "$1 Ranger  "
         },
-        "max-length": 50
+        "max-length": 30
      },
 
      "hyprland/workspaces" : {

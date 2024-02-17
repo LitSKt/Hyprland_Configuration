@@ -36,7 +36,7 @@ tooltip label {
 #workspaces {
     background: @litebg;
     color: @abtu;
-    margin: 4px 0px 7px 0px;
+    margin: 5px 0px 8px 0px;
     padding: 0px 0px 0px 20px;
     border-radius: 20px 0px 0px 20px;
     text-shadow: none;
@@ -58,7 +58,7 @@ tooltip label {
 
 #workspaces button.active {
     background: @abtu;
-    border-radius: 15px;
+    border-radius: 18px;
     color: @litebg;
     margin-left: 3px;
     padding-left: 30px;
@@ -83,7 +83,7 @@ tooltip label {
 #window {
     background: @litebg;
     border-radius: 0px 20px 20px 0px;
-    margin: 4px 0px 7px 0px;
+    margin: 5px 0px 8px 0px;
     padding-right: 22px;
     color: @abtu;
     font-size: 18px;
@@ -93,7 +93,7 @@ tooltip label {
 
 #taskbar {
     background: @litebg;
-    margin: 4px 0px 7px 0px;
+    margin: 5px 0px 8px 0px;
 }
 
 #taskbar button {
@@ -111,7 +111,7 @@ tooltip label {
 }
 
 #taskbar button.active {
-    border-radius: 15px;
+    border-radius: 18px;
     background: @abtu;
     margin-left: 3px;
     padding-left: 20px;
@@ -151,7 +151,7 @@ tooltip label {
     background-color: @litebg;
     border-width: 0px;
     border-color: @tolbg;
-    margin: 4px 0px 7px 0px;
+    margin: 5px 0px 8px 0px;
     font-size: 19px;
     text-shadow: none;
 }
@@ -161,7 +161,7 @@ tooltip label {
     margin-left: 24px;
     padding-right: 17px;
     background-color: @barbg;
-    border-width: 4px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 20px;
     border-color: @hbtu;
@@ -171,26 +171,28 @@ tooltip label {
 
 #battery {
     border-radius: 0px 20px 20px 0px;
-    padding-right: 22px;
+    font-size: 20px;
+    padding-right: 18px;
     padding-left: 9px;
 }
 
 #memory {
-    font-size: 23px;
+    font-size: 24px;
     padding-right: 4px;
     border-radius: 20px 0px 0px 20px;
-    padding-left: 20px;
+    padding-left: 16px;
     margin-left: 18px;
+    margin-right: -1px;
 }
 
 #disk {
-    font-size: 21px;
-    padding-right: 7px;
-    padding-left: 2px;
+    font-size: 22px;
+    padding-right: 4px;
 }
 
 #backlight {
     padding-left: 1px;
+    font-size: 20px;
 }
 
 #network {
@@ -221,15 +223,16 @@ tooltip label {
 
 
 #temperature {
-    padding-right: 14px;
+    padding-right: 13px;
+    font-size: 20px;
 }
 
 #tray {
     background: @txt;
     border-radius: 20px;
     margin-left: 13px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 #tray > .passive {
@@ -244,24 +247,24 @@ tooltip label {
     border-radius: 20px 0px 0px 20px;
     background-color: @barbg;
     color: @hbtu;
-    border-width: 4px 0px 4px 4px;
+    border-width: 5px 0px 5px 5px;
     border-style: solid;
     font-size: 18px;
     margin-left: 14px;
-    padding-left: 20px;
+    padding-left: 17px;
     padding-top: 1px;
     font-size: 20px;
 }
 
 #idle_inhibitor.activated {
     border-radius: 20px 0px 0px 20px;
-    border-width: 4px 0px 4px 4px;
+    border-width: 5px 0px 5px 5px;
     font-size: 18px;
     border-style: solid;
     margin-left: 14px;
     background-color: @barbg;
     color: @hbtu;
-    padding-left: 20px;
+    padding-left: 17px;
     padding-top: 1px;
     font-size: 20px;
 }
@@ -272,18 +275,18 @@ tooltip label {
     margin-right: 24px;
     margin-left: 15px;
     border-radius: 20px;
-    padding-left: 12px;
-    padding-right: 4px;
+    padding-left: 13px;
+    padding-right: 5px;
     font-size: 21px;
 }
 
 #custom-wallpapers {
     background: @barbg;
-    border-width: 4px 4px 4px 0px;
+    border-width: 5px 5px 5px 0px;
     border-style: solid;
     color: @hbtu;
-    padding-left: 9px;
-    padding-right: 14px;
+    padding-left: 8px;
+    padding-right: 11px;
     border-radius: 0px 20px 20px 0px;
     font-size: 18px;
 }
@@ -291,16 +294,16 @@ tooltip label {
 #custom-screenshot {
     background: @barbg;
     border-style: solid;
-    border-width: 4px 0px 4px 0px;
+    border-width: 5px 0px 5px 0px;
     color: @hbtu;
-    padding-left: 11px;
+    padding-left: 10px;
 }
 
 #custom-clipboardclear {
     background: @barbg;
     border-style: solid;
-    border-width: 4px 0px 4px 0px;
+    border-width: 5px 0px 5px 0px;
     color: @hbtu;
     font-size: 20px;
-    padding-left: 11px;
+    padding-left: 10px;
 }
