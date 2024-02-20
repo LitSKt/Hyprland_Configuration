@@ -30,6 +30,7 @@
 	    "(.*) - Google Chrome": "$1  ",
 	    "(.*)QQ": "$1 QQ 󰘅 ",
 	    "(.*) - Visual Studio Code": "$1 󰨞 ",
+	    "(.*)Visual Studio Code": "$1 󰨞 ",
 	    "(.*) - mpv": "$1  ",
 	    "(.*)musicfox": "$1 MusicFox  ",
 	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
