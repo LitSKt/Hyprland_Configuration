@@ -71,7 +71,7 @@
 
     "tray": {
         "icon-size": 23,
-        "spacing": 5
+        "spacing": 8
     }, 
 
     "clock": {
