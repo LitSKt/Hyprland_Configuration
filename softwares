@@ -9,6 +9,7 @@ libnotify
 ffmpegthumbnailer
 xdg-desktop-portal-hyprland
 atool
+gdb
 
 neovim
 kitty
