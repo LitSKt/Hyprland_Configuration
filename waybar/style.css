@@ -8,7 +8,7 @@
 
 /* Colors */
 
-@define-color barbg rgba(0, 0, 0, 0);
+@define-color barbg rgba(255, 255, 255, 0);
 @define-color litebg #C5FFF8;
 @define-color abtu #5FBDFF;
 @define-color txt #7B66FF;
@@ -275,7 +275,7 @@ tooltip label {
     margin-right: 24px;
     margin-left: 15px;
     border-radius: 20px;
-    padding-left: 12px;
+    padding-left: 13px;
     padding-right: 4px;
     font-size: 21px;
 }
