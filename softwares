@@ -36,5 +36,6 @@ bluez-utils  //sudo systemctl start bluetooth \n sudo systemctl enable bluetooth
 blueman
 
 swaylock-effects
+swayidle
 swww
 wlogout
