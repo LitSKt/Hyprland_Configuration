@@ -34,6 +34,8 @@
 	    "(.*) - mpv": "$1  ",
 	    "(.*)musicfox": "$1 MusicFox  ",
 	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
+	    "(.*)Bluetooth Devices": "$1 Bluetooth  ",
+	    "(.*)Fcitx Configuration": "$1 Fcitx 5 󰌌 ",
 	    "(.*)Ranger": "$1 Ranger  "
         },
         "max-length": 30
