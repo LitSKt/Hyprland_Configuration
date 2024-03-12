@@ -1,7 +1,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 53, // Waybar height (to be removed for auto height)
+    "height": 55, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
     "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],

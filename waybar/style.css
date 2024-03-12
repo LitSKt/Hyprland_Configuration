@@ -35,7 +35,7 @@ tooltip label {
 #workspaces {
     background: @litebg;
     color: @abtu;
-    margin: 6px 0px 7px 0px;
+    margin: 7px 0px 7px 0px;
     padding: 0px 0px 0px 20px;
     border-radius: 21px 0px 0px 21px;
     text-shadow: none;
@@ -82,7 +82,7 @@ tooltip label {
 #window {
     background: @litebg;
     border-radius: 0px 21px 21px 0px;
-    margin: 6px 0px 7px 0px;
+    margin: 7px 0px 7px 0px;
     padding-right: 22px;
     color: @abtu;
     font-size: 18px;
@@ -92,7 +92,7 @@ tooltip label {
 
 #taskbar {
     background: @litebg;
-    margin: 6px 0px 7px 0px;
+    margin: 7px 0px 7px 0px;
 }
 
 #taskbar button {
@@ -150,7 +150,7 @@ tooltip label {
     background-color: @litebg;
     border-width: 0px;
     border-color: @tolbg;
-    margin: 6px 0px 7px 0px;
+    margin: 7px 0px 7px 0px;
     font-size: 19px;
     text-shadow: none;
 }
@@ -271,7 +271,7 @@ tooltip label {
 #custom-power {
     background: @txt;
     color: white;
-    margin-right: 24px;
+    margin-right: 25px;
     margin-left: 15px;
     border-radius: 20px;
     padding-left: 13px;
