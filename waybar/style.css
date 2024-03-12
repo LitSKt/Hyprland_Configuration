@@ -166,7 +166,7 @@ tooltip label {
     border-radius: 20px;
     border-color: @hbtu;
     color: @tolbg;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 #battery {
@@ -198,7 +198,7 @@ tooltip label {
 #network {
     background-color: @barbg;
     color: @hbtu;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 7px;
     margin-bottom: 5px;
 }
@@ -209,7 +209,7 @@ tooltip label {
     margin-top: 6px;
     margin-bottom: 3px;
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 #pulseaudio.microphone {
