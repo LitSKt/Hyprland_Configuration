@@ -18,6 +18,13 @@ rofi
 dunst
 mpv
 kvantum
+qt5ct
+qt6ct
+qt5-wayland
+qt6-wayland
+kvantum-qt5
+libva
+libva-nvidia-driver-git
 papirus-icon-theme
 unzip
 zip
