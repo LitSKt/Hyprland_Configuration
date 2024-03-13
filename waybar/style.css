@@ -199,8 +199,8 @@ tooltip label {
     background-color: @barbg;
     color: @hbtu;
     font-size: 17px;
-    margin-top: 7px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    margin-bottom: 3px;
 }
 
 #pulseaudio {
@@ -208,7 +208,7 @@ tooltip label {
     color: @hbtu;
     margin-top: 6px;
     margin-bottom: 3px;
-    margin-left: 15px;
+    margin-left: 17px;
     font-size: 19px;
 }
 

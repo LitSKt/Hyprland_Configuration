@@ -115,10 +115,10 @@
             "warning": 30,
             "critical": 15
         },
-	"tooltip": false,
+	"tooltip-format": "{capacity}%",
         "format": "{icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}%  ",
+        "format-charging": "",
+	"interval": 1,
         "format-icons": ["󰂎", "󰁼", "󰁿", "󰂁", "󰁹"]
     },
 
