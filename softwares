@@ -12,6 +12,7 @@ atool
 gdb
 jdk-openjdk
 ntfs-3g
+dotnet-sdk
 
 neovim
 kitty
