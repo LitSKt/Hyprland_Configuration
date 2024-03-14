@@ -1,3 +1,4 @@
+//softwares after # is not necessary
 brightnessctl
 ttf-firacode-nerd
 python-pillow
@@ -9,10 +10,10 @@ libnotify
 ffmpegthumbnailer
 xdg-desktop-portal-hyprland
 atool
-gdb
-jdk-openjdk
-ntfs-3g
-dotnet-sdk
+# gdb
+# jdk-openjdk
+# ntfs-3g
+# dotnet-sdk
 
 neovim
 kitty
