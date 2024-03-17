@@ -65,7 +65,7 @@
     progress_bar_corner_radius = 5
 
     # Corner radius for the icon image.
-    icon_corner_radius = 15
+    icon_corner_radius = 13
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
