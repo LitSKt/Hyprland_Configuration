@@ -1,9 +1,9 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 55, // Waybar height (to be removed for auto height)
+    "height": 56, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
-    "modules-left": ["clock", "tray", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
+    "modules-left": ["clock", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers", "tray"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
     "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "disk", "temperature", "backlight", "battery", "custom/power"],
     "fixed-center": true,
@@ -36,7 +36,9 @@
 	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
 	    "(.*)Bluetooth Devices": "$1 Bluetooth  ",
 	    "(.*)Fcitx Configuration": "$1 Fcitx 5 󰌌 ",
-	    "(.*)Ranger": "$1 Ranger  "
+	    "(.*)Ranger": "$1 Ranger  ",
+	    "(.*)Unity Hub 3.7.0": "$1 Unity Hub 󰚯 ",
+	    "(.*)Unity Hub": "$1 Unity Hub 󰚯 "
         },
         "max-length": 30
      },
