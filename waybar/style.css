@@ -165,7 +165,7 @@ tooltip label {
 #clock {
     padding-left: 12px;
     padding-top: 1px;
-    margin-left: 24px;
+    margin-left: 20px;
     padding-right: 13px;
     background-color: @barbg;
     border-width: 5px;
@@ -281,7 +281,7 @@ tooltip label {
 #custom-power {
     background: @txt;
     color: white;
-    margin-right: 25px;
+    margin-right: 20px;
     margin-left: 10px;
     border-radius: 20px;
     padding-left: 13px;
@@ -299,7 +299,7 @@ tooltip label {
     border-color: @tolbg;
     padding-right: 9px;
     border-radius: 0px 20px 20px 0px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #custom-screenshot {
@@ -319,7 +319,7 @@ tooltip label {
     border-color: @tolbg;
     border-width: 5px 0px 5px 0px;
     color: @hbtu;
-    font-size: 17px;
+    font-size: 18px;
     padding-left: 7px;
     padding-top: 1px;
 }

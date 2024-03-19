@@ -65,7 +65,7 @@
     progress_bar_corner_radius = 5
 
     # Corner radius for the icon image.
-    icon_corner_radius = 13
+    icon_corner_radius = 10
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -124,7 +124,7 @@
 
     ### Text ###
 
-    font = FiraCode Nerd Font Bold 10
+    font = FiraCode Nerd Font Bold 9
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -215,7 +215,7 @@
     min_icon_size = 32
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 48
+    max_icon_size = 32
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
     # icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
