@@ -5,9 +5,6 @@
 
 * {
     background-image: none;
-    font-family: 'FiraCode Nerd Font';
-    font-weight: bold;
-    font-size: 40px;
     text-shadow: none;
 }
 
@@ -23,7 +20,7 @@ button {
     border-width: 0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 30%;
+    background-size: 25%;
     border-radius: 0px;
     box-shadow: none;
     text-shadow: none;
@@ -32,7 +29,7 @@ button {
 
 button:focus {
     background-color: @focbg;
-    background-size: 40%;
+    background-size: 30%;
 }
 
 button:focus#lock {
@@ -61,79 +58,79 @@ button:focus#reboot {
 
 #lock {
     background-image: image(url("/home/LK/.config/wlogout/icons/lock_black.png"));
-    border-radius: 200px 0px 0px 200px;
-    margin : 300px 0px 300px 0px;
+    border-radius: 150px 0px 0px 150px;
+    margin : 350px 0px 350px 250px;
 }
 
 #logout {
     background-image: image(url("/home/LK/.config/wlogout/icons/logout_black.png"));
     border-radius: 0px 0px 0px 0px;
-    margin : 300px 0px 300px 0px;
+    margin : 350px 0px 350px 0px;
 }
 
 #suspend {
     background-image: image(url("/home/LK/.config/wlogout/icons/suspend_black.png"));
     border-radius: 0px 0px 0px 0px;
-    margin : 300px 0px 300px 0px;
+    margin : 350px 0px 350px 0px;
 }
 
 #shutdown {
     background-image: image(url("/home/LK/.config/wlogout/icons/shutdown_black.png"));
     border-radius: 0px 0px 0px 0px;
-    margin : 300px 0px 300px 0px;
+    margin : 350px 0px 350px 0px;
 }
 
 #hibernate {
     background-image: image(url("/home/LK/.config/wlogout/icons/hibernate_black.png"));
     border-radius: 0px 0px 0px 0px;
-    margin : 300px 0px 300px 0px;
+    margin : 350px 0px 350px 0px;
 }
 
 #reboot {
     background-image: image(url("/home/LK/.config/wlogout/icons/reboot_black.png"));
-    border-radius: 0px 200px 200px 0px;
-    margin : 300px 0px 300px 0px;
+    border-radius: 0px 150px 150px 0px;
+    margin : 350px 250px 350px 0px;
 }
 
 button:hover {
     background-color: @hbg;
-    background-size: 50%;
+    background-size: 40%;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.4s cubic-bezier(.55,0.0,.28,1.682);
 }
 
 button:hover#lock {
-    margin : 180px 0px 180px -50px;
+    margin : 280px 0px 280px 220px;
     background-image: image(url("/home/LK/.config/wlogout/icons/lock_white.png"));
-    border-radius: 200px 120px 120px 200px;
+    border-radius: 150px 50px 50px 150px;
 }
 
 button:hover#logout {
-    border-radius: 120px;
-    margin : 180px 0px 180px 0px;
+    border-radius: 70px;
+    margin : 280px 0px 280px 0px;
     background-image: image(url("/home/LK/.config/wlogout/icons/logout_white.png"));
 }
 
 button:hover#suspend {
-    border-radius: 120px;
-    margin : 180px 0px 180px 0px;
+    border-radius: 70px;
+    margin : 280px 0px 280px 0px;
     background-image: image(url("/home/LK/.config/wlogout/icons/suspend_white.png"));
 }
 
 button:hover#shutdown {
-    border-radius: 120px;
-    margin : 180px 0px 180px 0px;
+    border-radius: 70px;
+    margin : 280px 0px 280px 0px;
     background-image: image(url("/home/LK/.config/wlogout/icons/shutdown_white.png"));
 }
 
 button:hover#hibernate {
-    border-radius: 120px;
-    margin : 180px 0px 180px 0px;
+    border-radius: 70px;
+    margin : 280px 0px 280px 0px;
     background-image: image(url("/home/LK/.config/wlogout/icons/hibernate_white.png"));
 }
 
 button:hover#reboot {
-    border-radius: 120px 200px 200px 120px;
-    margin : 180px -50px 180px 0px;
+    border-radius: 50px 150px 150px 50px;
+    margin : 280px 220px 280px 0px;
     background-image: image(url("/home/LK/.config/wlogout/icons/reboot_white.png"));
 }
