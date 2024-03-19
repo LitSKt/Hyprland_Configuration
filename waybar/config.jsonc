@@ -3,9 +3,9 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 56, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
-    "modules-left": ["clock", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers", "tray"],
+    "modules-left": ["clock", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
     "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
-    "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "disk", "temperature", "backlight", "battery", "custom/power"],
+    "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "disk", "temperature", "backlight", "battery", "tray", "custom/power"],
     "fixed-center": true,
     "mod": "dock",
 
@@ -14,7 +14,7 @@
     "wlr/taskbar": {
     	"format": "{icon}",
 	"spacaing": 0,
-    	"icon-size": 22,
+    	"icon-size": 20,
     	"icon-theme": "Papirus",
     	"on-click": "activate",
     	"on-click-middle": "close",
@@ -74,8 +74,8 @@
     },
 
     "tray": {
-        "icon-size": 23,
-        "spacing": 8
+        "icon-size": 18,
+        "spacing": 5
     }, 
 
     "clock": {

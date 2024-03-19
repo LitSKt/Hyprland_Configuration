@@ -1,7 +1,7 @@
 * {
     font-family: 'FiraCode Nerd Font';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 0px;
 }
 
@@ -36,9 +36,9 @@ tooltip label {
 #workspaces {
     background: @litebg;
     color: @abtu;
-    margin: 7px 0px 7px 0px;
+    margin: 8px 0px 8px 0px;
     padding: 0px 0px 0px 20px;
-    border-radius: 22px 0px 0px 22px;
+    border-radius: 20px 0px 0px 20px;
     text-shadow: none;
 }
 
@@ -46,9 +46,9 @@ tooltip label {
     box-shadow: none;
     text-shadow: none;
     padding: 0px;
-    border-radius: 20px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    border-radius: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-left: 3px;
     padding-right: 3px;
     color: @abtu;
@@ -58,9 +58,11 @@ tooltip label {
 
 #workspaces button.active {
     background: @abtu;
-    border-radius: 20px;
+    border-radius: 18px;
     color: @litebg;
     margin-left: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-left: 30px;
     padding-right: 30px;
     margin-right: 3px;
@@ -70,9 +72,11 @@ tooltip label {
 
 #workspaces button:hover {
     background: @hbtu;
-    border-radius: 20px;
+    border-radius: 18px;
     color: @litebg;
     padding-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-right: 10px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
@@ -82,8 +86,8 @@ tooltip label {
 
 #window {
     background: @litebg;
-    border-radius: 0px 22px 22px 0px;
-    margin: 7px 0px 7px 0px;
+    border-radius: 0px 20px 20px 0px;
+    margin: 8px 0px 8px 0px;
     padding-right: 22px;
     color: @abtu;
 }
@@ -92,7 +96,7 @@ tooltip label {
 
 #taskbar {
     background: @litebg;
-    margin: 7px 0px 7px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
 #taskbar button {
@@ -100,9 +104,9 @@ tooltip label {
     box-shadow: none;
     text-shadow: none;
     padding: 0px;
-    border-radius: 20px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    border-radius: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-left: 3px;
     padding-right: 3px;
     animation: gradient_f 20s ease-in infinite;
@@ -110,10 +114,12 @@ tooltip label {
 }
 
 #taskbar button.active {
-    border-radius: 20px;
+    border-radius: 18px;
     background: @abtu;
     margin-left: 3px;
     padding-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-right: 20px;
     margin-right: 3px;
     animation: gradient_f 20s ease-in infinite;
@@ -121,8 +127,10 @@ tooltip label {
 }
 
 #taskbar button:hover {
-    border-radius: 20px;
+    border-radius: 18px;
     background: @hbtu;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding-left: 12px;
     padding-right: 12px;
     animation: gradient_f 20s ease-in infinite;
@@ -149,55 +157,57 @@ tooltip label {
     color: @txt;
     background-color: @litebg;
     border-width: 0px;
-    margin: 7px 0px 7px 0px;
+    margin: 8px 0px 8px 0px;
     font-size: 19px;
     text-shadow: none;
 }
 
 #clock {
-    padding-left: 16px;
+    padding-left: 12px;
     padding-top: 1px;
     margin-left: 24px;
-    padding-right: 17px;
+    padding-right: 13px;
     background-color: @barbg;
     border-width: 5px;
     border-style: solid;
-    border-radius: 22px;
+    border-radius: 20px;
     border-color: @hbtu;
     color: @tolbg;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #battery {
-    border-radius: 0px 22px 22px 0px;
-    font-size: 20px;
-    padding-right: 18px;
-    padding-left: 9px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 18px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+    padding-left: 5px;
 }
 
 #memory {
-    font-size: 24px;
+    font-size: 22px;
     padding-right: 4px;
-    border-radius: 22px 0px 0px 22px;
-    padding-left: 16px;
-    margin-left: 20px;
-    margin-right: -1px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 15px;
+    margin-left: 19px;
+    margin-right: -4px;
 }
 
 #disk {
-    font-size: 22px;
-    padding-right: 4px;
+    font-size: 19px;
+    padding-right: 2px;
 }
 
 #backlight {
-    padding-left: 1px;
-    font-size: 20px;
+    margin-left: -1px;
+    font-size: 18px;
+    padding-top: 1px;
 }
 
 #network {
     background-color: @barbg;
     color: @hbtu;
-    font-size: 17px;
+    font-size: 16px;
     margin-top: 6px;
     margin-bottom: 3px;
 }
@@ -207,8 +217,8 @@ tooltip label {
     color: @hbtu;
     margin-top: 6px;
     margin-bottom: 3px;
-    margin-left: 17px;
-    font-size: 18px;
+    margin-left: 16px;
+    font-size: 16px;
 }
 
 #pulseaudio.microphone {
@@ -216,22 +226,22 @@ tooltip label {
     color: @hbtu;
     margin-top: 6px;
     margin-bottom: 3px;
-    font-size: 18px;
-    margin-left: 13px;
+    font-size: 16px;
+    margin-left: 12px;
 }
 
 
 #temperature {
-    padding-right: 13px;
-    font-size: 20px;
+    padding-right: 12px;
+    font-size: 17px;
 }
 
 #tray {
     background: @txt;
     border-radius: 22px;
-    margin-left: 13px;
-    padding-left: 13px;
-    padding-right: 13px;
+    margin-left: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 #tray > .passive {
@@ -243,42 +253,40 @@ tooltip label {
 }
 
 #idle_inhibitor {
-    border-radius: 24px 0px 0px 24px;
+    border-radius: 20px 0px 0px 20px;
     background-color: @barbg;
     color: @hbtu;
     border-color: @tolbg;
     border-width: 5px 0px 5px 5px;
     border-style: solid;
-    font-size: 18px;
-    margin-left: 14px;
-    padding-left: 17px;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-left: 15px;
     padding-top: 1px;
-    font-size: 20px;
 }
 
 #idle_inhibitor.activated {
-    border-radius: 24px 0px 0px 24px;
+    border-radius: 20px 0px 0px 20px;
     border-width: 5px 0px 5px 5px;
-    font-size: 18px;
+    font-size: 16px;
     border-style: solid;
     border-color: @tolbg;
-    margin-left: 14px;
+    margin-left: 10px;
     background-color: @barbg;
     color: @hbtu;
-    padding-left: 17px;
+    padding-left: 15px;
     padding-top: 1px;
-    font-size: 20px;
 }
 
 #custom-power {
     background: @txt;
     color: white;
     margin-right: 25px;
-    margin-left: 15px;
-    border-radius: 22px;
-    padding-left: 14px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding-left: 13px;
     padding-right: 5px;
-    font-size: 21px;
+    font-size: 19px;
 }
 
 #custom-wallpapers {
@@ -286,11 +294,12 @@ tooltip label {
     border-width: 5px 5px 5px 0px;
     border-style: solid;
     color: @hbtu;
-    padding-left: 8px;
+    padding-left: 4px;
+    padding-top: 1px;
     border-color: @tolbg;
-    padding-right: 11px;
-    border-radius: 0px 24px 24px 0px;
-    font-size: 18px;
+    padding-right: 9px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 14px;
 }
 
 #custom-screenshot {
@@ -298,8 +307,10 @@ tooltip label {
     border-style: solid;
     border-color: @tolbg;
     border-width: 5px 0px 5px 0px;
+    font-size: 16px;
     color: @hbtu;
-    padding-left: 10px;
+    padding-left: 6px;
+    padding-top: 1px;
 }
 
 #custom-clipboardclear {
@@ -308,6 +319,7 @@ tooltip label {
     border-color: @tolbg;
     border-width: 5px 0px 5px 0px;
     color: @hbtu;
-    font-size: 20px;
-    padding-left: 10px;
+    font-size: 17px;
+    padding-left: 7px;
+    padding-top: 1px;
 }
