@@ -18,8 +18,16 @@
     	"icon-theme": "Papirus",
     	"on-click": "activate",
     	"on-click-middle": "close",
-	"tooltip": false,
-	"max-length": 15
+	"tooltip": true,
+	"tooltip-format": "{title}",
+	"max-length": 15,
+	"ignore-list":[
+        "rofi -  ",
+        "rofi -  ",
+        "rofi -  ",
+        "rofi -  ",
+        "rofi - dmenu"
+	]
      },
 
      "hyprland/window": {
