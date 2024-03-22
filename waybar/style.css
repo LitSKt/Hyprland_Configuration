@@ -259,23 +259,23 @@ tooltip label {
     border-color: @tolbg;
     border-width: 5px 0px 5px 5px;
     border-style: solid;
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 10px;
     padding-left: 15px;
-    padding-top: 2px;
+    padding-top: 1px;
 }
 
 #idle_inhibitor.activated {
     border-radius: 20px 0px 0px 20px;
     border-width: 5px 0px 5px 5px;
-    font-size: 17px;
+    font-size: 16px;
     border-style: solid;
     border-color: @tolbg;
     margin-left: 10px;
     background-color: @barbg;
     color: @hbtu;
     padding-left: 15px;
-    padding-top: 2px;
+    padding-top: 1px;
 }
 
 #custom-power {
@@ -299,7 +299,7 @@ tooltip label {
     border-color: @tolbg;
     padding-right: 9px;
     border-radius: 0px 20px 20px 0px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #custom-screenshot {
@@ -307,7 +307,7 @@ tooltip label {
     border-style: solid;
     border-color: @tolbg;
     border-width: 5px 0px 5px 0px;
-    font-size: 16px;
+    font-size: 15px;
     color: @hbtu;
     padding-left: 6px;
     padding-top: 2px;
@@ -319,7 +319,7 @@ tooltip label {
     border-color: @tolbg;
     border-width: 5px 0px 5px 0px;
     color: @hbtu;
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 8px;
     padding-top: 1px;
 }
