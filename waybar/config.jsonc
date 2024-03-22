@@ -16,7 +16,6 @@
 	"spacaing": 0,
     	"icon-size": 20,
     	"icon-theme": "Papirus",
-    	"on-click": "activate",
     	"on-click-middle": "close",
 	"tooltip": true,
 	"tooltip-format": "{title}",
