@@ -76,8 +76,8 @@
         "format": "{icon}",
 	"tooltip": false,
         "format-icons": {
-            "activated": " ",
-            "deactivated": " "
+            "activated": "󰕥 ",
+            "deactivated": "󰦝 "
         }
     },
 
@@ -180,7 +180,7 @@
     },
 
     "custom/screenshot": {
-        "format": " ",
+        "format": "󰹑 ",
 	"on-click": "grimblast --notify save",
 	"on-click-right": "grimblast --notify save active",
 	"tooltip": false
