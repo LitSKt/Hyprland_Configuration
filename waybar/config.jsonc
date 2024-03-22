@@ -39,6 +39,7 @@
 	    "(.*)QQ": "$1 QQ 󰘅 ",
 	    "(.*) - Visual Studio Code": "$1 󰨞 ",
 	    "(.*)Visual Studio Code": "$1 󰨞 ",
+	    "(.*)rofi - dmenu": "$1 cliphist 󰅍 ",
 	    "(.*) - mpv": "$1  ",
 	    "(.*)musicfox": "$1 MusicFox  ",
 	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
