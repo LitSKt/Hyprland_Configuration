@@ -262,7 +262,6 @@ tooltip label {
     font-size: 16px;
     margin-left: 10px;
     padding-left: 15px;
-    padding-top: 1px;
 }
 
 #idle_inhibitor.activated {
@@ -275,7 +274,6 @@ tooltip label {
     background-color: @barbg;
     color: @hbtu;
     padding-left: 15px;
-    padding-top: 1px;
 }
 
 #custom-power {
@@ -320,6 +318,6 @@ tooltip label {
     border-width: 5px 0px 5px 0px;
     color: @hbtu;
     font-size: 17px;
-    padding-left: 8px;
+    padding-left: 9px;
     padding-top: 1px;
 }
