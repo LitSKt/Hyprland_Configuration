@@ -24,7 +24,7 @@ configuration {
 // Main //
 window {
     height:                      490px;
-    width:                       560px;
+    width:                       540px;
     transparency:                "real";
     fullscreen:                  false;
     enabled:                     true;
