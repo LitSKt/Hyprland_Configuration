@@ -3,8 +3,8 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 56, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
-    "modules-left": ["clock", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
-    "modules-center": ["hyprland/workspaces", "custom/apps", "wlr/taskbar", "hyprland/window"],
+    "modules-left": ["clock", "custom/apps", "wlr/taskbar", "hyprland/window"],
+    "modules-center": ["hyprland/workspaces", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
     "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "disk", "temperature", "backlight", "battery", "tray", "custom/power"],
     "fixed-center": true,
     "mod": "dock",
@@ -39,7 +39,7 @@
 	    "(.*)musicfox":  "  ",
 	    "(.*)Ranger": "  "
         },
-        "max-length": 10
+        "max-length": 20
      },
 
      "hyprland/workspaces" : {

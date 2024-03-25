@@ -13,7 +13,6 @@
 @define-color txt #7B66FF;
 @define-color hbtu #FF90BC;
 @define-color tolbg #96EFFF;
-@define-color bd #FFF;
 
 /* Waybar background */
 
@@ -47,9 +46,9 @@ tooltip label {
     box-shadow: none;
     text-shadow: none;
     padding: 0px;
-    border-radius: 18px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    border-radius: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 3px;
     margin-right: 3px;
     padding-left: 10px;
@@ -62,12 +61,12 @@ tooltip label {
 
 #workspaces button.active {
     background: @txt;
-    border-radius: 18px;
-    color: @litebg;
+    border-radius: 16px;
+    color: white;
     margin-left: 3px;
     margin-right: 3px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 22px;
     padding-right: 22px;
     animation: gradient_f 20s ease-in infinite;
@@ -76,11 +75,11 @@ tooltip label {
 
 #workspaces button:hover {
     background: @hbtu;
-    border-radius: 18px;
+    border-radius: 16px;
     color: @litebg;
     padding-left: 10px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-right: 10px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
@@ -107,10 +106,10 @@ tooltip label {
     box-shadow: none;
     text-shadow: none;
     padding: 0px;
-    border-radius: 18px;
+    border-radius: 16px;
     margin-left: 6px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 3px;
     padding-right: 3px;
     animation: gradient_f 20s ease-in infinite;
@@ -118,22 +117,22 @@ tooltip label {
 }
 
 #taskbar button.active {
-    border-radius: 18px;
+    border-radius: 16px;
     background: @abtu;
     margin-left: 6px;
     padding-left: 16px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-right: 16px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #taskbar button:hover {
-    border-radius: 18px;
+    border-radius: 16px;
     background: @hbtu;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     animation: gradient_f 20s ease-in infinite;
@@ -181,7 +180,7 @@ tooltip label {
     padding-top: 1px;
     margin-left: 20px;
     background-color: @barbg;
-    border-width: 5px;
+    border-width: 7px;
     border-style: solid;
     border-radius: 20px;
     border-color: @hbtu;
@@ -251,7 +250,7 @@ tooltip label {
 
 #tray {
     background: @txt;
-    border-radius: 22px;
+    border-radius: 20px;
     margin-left: 10px;
     padding-left: 12px;
     padding-right: 12px;
@@ -267,10 +266,10 @@ tooltip label {
 
 #idle_inhibitor {
     border-radius: 20px 0px 0px 20px;
-    background-color: @barbg;
-    color: @hbtu;
-    border-color: @tolbg;
-    border-width: 5px 0px 5px 5px;
+    background-color: @abtu;
+    color: @litebg;
+    border-color: @litebg;
+    border-width: 6px 0px 6px 6px;
     border-style: solid;
     font-size: 16px;
     margin-left: 10px;
@@ -279,13 +278,13 @@ tooltip label {
 
 #idle_inhibitor.activated {
     border-radius: 20px 0px 0px 20px;
-    border-width: 5px 0px 5px 5px;
+    border-width: 6px 0px 6px 6px;
     font-size: 16px;
     border-style: solid;
-    border-color: @tolbg;
+    border-color: @abtu;
     margin-left: 10px;
-    background-color: @barbg;
-    color: @hbtu;
+    background-color: @litebg;
+    color: @litebg;
     padding-left: 14px;
 }
 
@@ -301,35 +300,35 @@ tooltip label {
 }
 
 #custom-wallpapers {
-    background: @barbg;
-    border-width: 5px 5px 5px 0px;
+    background: @abtu;
+    border-width: 6px 6px 6px 0px;
     border-style: solid;
-    color: @hbtu;
+    color: @litebg;
     padding-left: 3px;
     padding-top: 1px;
-    border-color: @tolbg;
+    border-color: @litebg;
     padding-right: 7px;
     border-radius: 0px 20px 20px 0px;
     font-size: 14px;
 }
 
 #custom-screenshot {
-    background: @barbg;
+    background: @abtu;
     border-style: solid;
-    border-color: @tolbg;
-    border-width: 5px 0px 5px 0px;
+    border-color: @litebg;
+    border-width: 6px 0px 6px 0px;
     font-size: 15px;
-    color: @hbtu;
+    color: @litebg;
     padding-left: 4px;
     padding-top: 2px;
 }
 
 #custom-clipboardclear {
-    background: @barbg;
+    background: @abtu;
     border-style: solid;
-    border-color: @tolbg;
-    border-width: 5px 0px 5px 0px;
-    color: @hbtu;
+    border-color: @litebg;
+    border-width: 6px 0px 6px 0px;
+    color: @litebg;
     font-size: 17px;
     padding-left: 7px;
     padding-top: 1px;
