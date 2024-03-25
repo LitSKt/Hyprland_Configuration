@@ -48,7 +48,7 @@
 	    "(.*)Unity Hub 3.7.0": "$1 Unity Hub 󰚯 ",
 	    "(.*)Unity Hub": "$1 Unity Hub 󰚯 "
         },
-        "max-length": 30
+        "max-length": 50
      },
 
      "hyprland/workspaces" : {
