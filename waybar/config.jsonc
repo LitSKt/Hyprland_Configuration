@@ -4,7 +4,7 @@
     "height": 56, // Waybar height (to be removed for auto height)
     "spacing": 0, // Gaps between modules (4px)
     "modules-left": ["clock", "idle_inhibitor", "custom/screenshot", "custom/clipboardclear", "custom/wallpapers"],
-    "modules-center": ["hyprland/workspaces", "wlr/taskbar", "hyprland/window"],
+    "modules-center": ["hyprland/workspaces", "custom/apps", "wlr/taskbar", "hyprland/window"],
     "modules-right": ["network", "pulseaudio", "pulseaudio#microphone", "memory", "disk", "temperature", "backlight", "battery", "tray", "custom/power"],
     "fixed-center": true,
     "mod": "dock",
@@ -14,7 +14,7 @@
     "wlr/taskbar": {
     	"format": "{icon}",
 	"spacaing": 0,
-    	"icon-size": 20,
+    	"icon-size": 18,
     	"icon-theme": "Papirus",
     	"on-click-middle": "close",
 	"tooltip": true,
@@ -30,25 +30,16 @@
      },
 
      "hyprland/window": {
-        "format": "   {}",
+        "format": "  {}",
         "separate-outputs": true,
         "rewrite": {
-	    "(.*)~": "$1Kitty 󰚺 ",
-	    "(.*) - Google Chrome": "$1  ",
-	    "(.*)QQ": "$1 QQ 󰘅 ",
-	    "(.*) - Visual Studio Code": "$1 󰨞 ",
-	    "(.*)Visual Studio Code": "$1 󰨞 ",
-	    "(.*)rofi - dmenu": "$1 cliphist 󰅍 ",
-	    "(.*) - mpv": "$1  ",
-	    "(.*)musicfox": "$1 MusicFox  ",
-	    "(.*)ONLYOFFICE Desktop Editors": "$1 Onlyoffice 󰏆 ",
-	    "(.*)Bluetooth Devices": "$1 Bluetooth  ",
-	    "(.*)Fcitx Configuration": "$1 Fcitx 5 󰌌 ",
-	    "(.*)Ranger": "$1 Ranger  ",
-	    "(.*)Unity Hub 3.7.0": "$1 Unity Hub 󰚯 ",
-	    "(.*)Unity Hub": "$1 Unity Hub 󰚯 "
+	    "(.*)~": " 󰚺 ",
+	    "(.*)rofi - dmenu": " 󰅍 ",
+	    "(.*) - mpv": "  ",
+	    "(.*)musicfox":  "  ",
+	    "(.*)Ranger": "  "
         },
-        "max-length": 20
+        "max-length": 10
      },
 
      "hyprland/workspaces" : {
@@ -62,7 +53,7 @@
 	    "default": ""
         },
         "persistent-workspaces": {
-    	    "*": 3
+    	    "*": 5
         }       
     },
 
@@ -181,15 +172,21 @@
 
     "custom/screenshot": {
         "format": "󰹑 ",
-	"on-click": "grimblast --notify save",
-	"on-click-right": "grimblast --notify save active",
-	"tooltip": false
+	    "on-click": "grimblast --notify save",
+	    "on-click-right": "grimblast --notify save active",
+	    "tooltip": false
     },
 
     "custom/clipboardclear": {
         "format": "󰃢 ",
-	"on-click": "bash /home/LK/.config/waybar/scripts/clipboardclear.sh",
-	"tooltip": false
+	    "on-click": "bash /home/LK/.config/waybar/scripts/clipboardclear.sh",
+	    "tooltip": false
+    },
+
+    "custom/apps": {
+        "format": "Apps",
+        "on-click": "rofi -show drun -normal-window",
+        "tooltip": false
     }
 }
 

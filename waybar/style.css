@@ -37,8 +37,9 @@ tooltip label {
     background: @litebg;
     color: @abtu;
     margin: 8px 0px 8px 0px;
-    padding: 0px 0px 0px 6px;
-    border-radius: 20px 0px 0px 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 20px;
     text-shadow: none;
 }
 
@@ -49,23 +50,26 @@ tooltip label {
     border-radius: 18px;
     margin-top: 4px;
     margin-bottom: 4px;
-    padding-left: 3px;
-    padding-right: 3px;
-    color: @abtu;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: @litebg;
+    background: @abtu;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.8s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
-    background: @abtu;
+    background: @txt;
     border-radius: 18px;
     color: @litebg;
     margin-left: 3px;
+    margin-right: 3px;
     margin-top: 4px;
     margin-bottom: 4px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 3px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -82,14 +86,14 @@ tooltip label {
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
-/* Hyprland Window */
-
-#window {
+#custom-apps {
+    border-radius: 20px 0 0 20px;
     background: @litebg;
-    border-radius: 0px 20px 20px 0px;
-    margin: 8px 0px 8px 0px;
-    padding-right: 22px;
     color: @abtu;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    padding-left: 16px;
 }
 
 /* Taskbar */
@@ -100,11 +104,11 @@ tooltip label {
 }
 
 #taskbar button {
-    border-radius: 20px;
     box-shadow: none;
     text-shadow: none;
     padding: 0px;
     border-radius: 18px;
+    margin-left: 6px;
     margin-top: 4px;
     margin-bottom: 4px;
     padding-left: 3px;
@@ -116,12 +120,11 @@ tooltip label {
 #taskbar button.active {
     border-radius: 18px;
     background: @abtu;
-    margin-left: 3px;
+    margin-left: 6px;
     padding-left: 16px;
     margin-top: 4px;
     margin-bottom: 4px;
     padding-right: 16px;
-    margin-right: 3px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -135,6 +138,16 @@ tooltip label {
     padding-right: 10px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.6s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+/* Hyprland Window */
+
+#window {
+    background: @litebg;
+    border-radius: 0px 20px 20px 0px;
+    margin: 8px 0px 8px 0px;
+    padding-right: 12px;
+    color: @abtu;
 }
 
 /* Modules */
@@ -164,7 +177,6 @@ tooltip label {
 
 #clock {
     padding-left: 10px;
-    padding-top: 1px;
     margin-left: 20px;
     padding-right: 10px;
     background-color: @barbg;
@@ -261,7 +273,7 @@ tooltip label {
     border-style: solid;
     font-size: 16px;
     margin-left: 10px;
-    padding-left: 15px;
+    padding-left: 14px;
 }
 
 #idle_inhibitor.activated {
@@ -273,7 +285,7 @@ tooltip label {
     margin-left: 10px;
     background-color: @barbg;
     color: @hbtu;
-    padding-left: 15px;
+    padding-left: 14px;
 }
 
 #custom-power {
@@ -295,7 +307,7 @@ tooltip label {
     padding-left: 4px;
     padding-top: 1px;
     border-color: @tolbg;
-    padding-right: 9px;
+    padding-right: 8px;
     border-radius: 0px 20px 20px 0px;
     font-size: 14px;
 }

@@ -24,7 +24,7 @@ configuration {
 // Main //
 window {
     height:                      490px;
-    width:                       540px;
+    width:                       520px;
     transparency:                "real";
     fullscreen:                  false;
     enabled:                     true;
@@ -59,10 +59,10 @@ entry {
 
 // Modes //
 mode-switcher {
-    width:                       152px;
+    width:                       135px;
     orientation:                 vertical;
     enabled:                     true;
-    padding:                     80px 25px 80px 55px;
+    padding:                     80px 10px 80px 55px;
     spacing:                     20px;
     background-color:            transparent;
 }
