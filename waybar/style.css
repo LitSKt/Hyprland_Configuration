@@ -178,6 +178,7 @@ tooltip label {
 #clock {
     padding-left: 9px;
     padding-right: 9px;
+    padding-top: 1px;
     margin-left: 20px;
     background-color: @barbg;
     border-width: 5px;
