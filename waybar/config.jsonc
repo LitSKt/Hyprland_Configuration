@@ -164,7 +164,7 @@
     },
 
     "custom/power": {
-        "format": " ",
+        "format": "  ",
         "on-click": "wlogout -b 6",
         "interval": 86400, // once every day
         "tooltip": false

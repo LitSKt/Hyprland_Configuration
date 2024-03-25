@@ -177,8 +177,8 @@ tooltip label {
 
 #clock {
     padding-left: 9px;
-    margin-left: 20px;
     padding-right: 9px;
+    margin-left: 20px;
     background-color: @barbg;
     border-width: 5px;
     border-style: solid;
@@ -273,7 +273,7 @@ tooltip label {
     border-style: solid;
     font-size: 16px;
     margin-left: 10px;
-    padding-left: 13px;
+    padding-left: 14px;
 }
 
 #idle_inhibitor.activated {
@@ -285,7 +285,7 @@ tooltip label {
     margin-left: 10px;
     background-color: @barbg;
     color: @hbtu;
-    padding-left: 13px;
+    padding-left: 14px;
 }
 
 #custom-power {
@@ -294,9 +294,9 @@ tooltip label {
     margin-right: 20px;
     margin-left: 10px;
     border-radius: 20px;
-    padding-left: 13px;
-    padding-right: 5px;
-    font-size: 19px;
+    padding-left: 3px;
+    padding-right: 7px;
+    font-size: 18px;
 }
 
 #custom-wallpapers {
