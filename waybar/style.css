@@ -190,14 +190,15 @@ tooltip label {
 
 #battery {
     border-radius: 0px 20px 20px 0px;
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 1px;
     padding-right: 15px;
     padding-left: 5px;
+    padding-top: 1px;
 }
 
 #memory {
-    font-size: 22px;
+    font-size: 21px;
     padding-right: 4px;
     border-radius: 20px 0px 0px 20px;
     padding-left: 15px;
@@ -206,13 +207,12 @@ tooltip label {
 }
 
 #disk {
-    font-size: 19px;
+    font-size: 18px;
     padding-right: 2px;
 }
 
 #backlight {
-    margin-left: -1px;
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 1px;
 }
 
@@ -222,6 +222,11 @@ tooltip label {
     font-size: 16px;
     margin-top: 6px;
     margin-bottom: 3px;
+}
+
+#temperature {
+    padding-right: 9px;
+    font-size: 16px;
 }
 
 #pulseaudio {
@@ -239,13 +244,7 @@ tooltip label {
     margin-top: 6px;
     margin-bottom: 3px;
     font-size: 16px;
-    margin-left: 11px;
-}
-
-
-#temperature {
-    padding-right: 12px;
-    font-size: 17px;
+    margin-left: 12px;
 }
 
 #tray {
@@ -253,7 +252,7 @@ tooltip label {
     border-radius: 20px;
     margin-left: 10px;
     padding-left: 12px;
-    padding-right: 12px;
+    padding-right: 14px;
 }
 
 #tray > .passive {

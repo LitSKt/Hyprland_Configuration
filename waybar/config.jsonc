@@ -73,8 +73,8 @@
     },
 
     "tray": {
-        "icon-size": 18,
-        "spacing": 6
+        "icon-size": 17,
+        "spacing": 5
     }, 
 
     "clock": {
@@ -154,8 +154,8 @@
 
     "pulseaudio#microphone": {
         "format": "{format_source}",
-        "format-source": "󰍬 {volume}",
-        "format-source-muted": "󰍭 0",
+        "format-source": " {volume}",
+        "format-source-muted": " 0",
         "on-click-right": "pavucontrol -t 4",
         "on-click": "pactl -- set-source-mute 0 toggle",
 	"tooltip": false,
