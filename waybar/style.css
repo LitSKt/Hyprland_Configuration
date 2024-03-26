@@ -280,9 +280,9 @@ tooltip label {
     border-width: 6px 0px 6px 6px;
     font-size: 16px;
     border-style: solid;
-    border-color: @abtu;
+    border-color: @litebg;
     margin-left: 10px;
-    background-color: @litebg;
+    background-color: @abtu;
     color: @litebg;
     padding-left: 14px;
 }
