@@ -60,7 +60,7 @@
     "custom/wallpapers": {
         "format": " ",
 	"tooltip": false,
-	"on-click": "bash /home/LK/.config/waybar/scripts/switcher.sh"
+	"on-click": "bash $HOME/.config/waybar/scripts/switcher.sh"
     },
     
     "idle_inhibitor": {
@@ -179,7 +179,7 @@
 
     "custom/clipboardclear": {
         "format": "󰃢 ",
-	    "on-click": "bash /home/LK/.config/waybar/scripts/clipboardclear.sh",
+	    "on-click": "bash $HOME/.config/waybar/scripts/clipboardclear.sh",
 	    "tooltip": false
     },
 

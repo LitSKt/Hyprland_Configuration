@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory=/home/LK/Pictures/Wallpapers
+directory=$HOME/Pictures/Wallpapers
 
 #check exist
 if [ ! -d "$directory" ]; then
@@ -22,7 +22,7 @@ done< <(find "$directory" -type f -print0)
 num_files="${#files[@]}"
 
 #get current wallpaper
-cur_file=$(<"/home/LK/.cache/swww/eDP-2")
+cur_file=$(<"$HOME/.cache/swww/eDP-2")
 
 #change wallpaper use swww
 for ((i=0; i<num_files; i++)); do

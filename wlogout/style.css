@@ -33,61 +33,61 @@ button:focus {
 }
 
 button:focus#lock {
-    background-image: image(url("/home/LK/.config/wlogout/icons/lock_black.png"));
+    background-image: image(url("./icons/lock_black.png"));
 }
 
 button:focus#logout {
-    background-image: image(url("/home/LK/.config/wlogout/icons/logout_black.png"));
+    background-image: image(url("./icons/logout_black.png"));
 }
 
 button:focus#suspend {
-    background-image: image(url("/home/LK/.config/wlogout/icons/suspend_black.png"));
+    background-image: image(url("./icons/suspend_black.png"));
 }
 
 button:focus#shutdown {
-    background-image: image(url("/home/LK/.config/wlogout/icons/shutdown_black.png"));
+    background-image: image(url("./icons/shutdown_black.png"));
 }
 
 button:focus#hibernate {
-    background-image: image(url("/home/LK/.config/wlogout/icons/hibernate_black.png"));
+    background-image: image(url("./icons/hibernate_black.png"));
 }
 
 button:focus#reboot {
-    background-image: image(url("/home/LK/.config/wlogout/icons/reboot_black.png"));
+    background-image: image(url("./icons/reboot_black.png"));
 }
 
 #lock {
-    background-image: image(url("/home/LK/.config/wlogout/icons/lock_black.png"));
+    background-image: image(url("./icons/lock_black.png"));
     border-radius: 150px 0px 0px 150px;
     margin : 350px 0px 350px 250px;
 }
 
 #logout {
-    background-image: image(url("/home/LK/.config/wlogout/icons/logout_black.png"));
+    background-image: image(url("./icons/logout_black.png"));
     border-radius: 0px 0px 0px 0px;
     margin : 350px 0px 350px 0px;
 }
 
 #suspend {
-    background-image: image(url("/home/LK/.config/wlogout/icons/suspend_black.png"));
+    background-image: image(url("./icons/suspend_black.png"));
     border-radius: 0px 0px 0px 0px;
     margin : 350px 0px 350px 0px;
 }
 
 #shutdown {
-    background-image: image(url("/home/LK/.config/wlogout/icons/shutdown_black.png"));
+    background-image: image(url("./icons/shutdown_black.png"));
     border-radius: 0px 0px 0px 0px;
     margin : 350px 0px 350px 0px;
 }
 
 #hibernate {
-    background-image: image(url("/home/LK/.config/wlogout/icons/hibernate_black.png"));
+    background-image: image(url("./icons/hibernate_black.png"));
     border-radius: 0px 0px 0px 0px;
     margin : 350px 0px 350px 0px;
 }
 
 #reboot {
-    background-image: image(url("/home/LK/.config/wlogout/icons/reboot_black.png"));
+    background-image: image(url("./icons/reboot_black.png"));
     border-radius: 0px 150px 150px 0px;
     margin : 350px 250px 350px 0px;
 }
@@ -101,36 +101,36 @@ button:hover {
 
 button:hover#lock {
     margin : 280px 0px 280px 220px;
-    background-image: image(url("/home/LK/.config/wlogout/icons/lock_white.png"));
+    background-image: image(url("./icons/lock_white.png"));
     border-radius: 150px 50px 50px 150px;
 }
 
 button:hover#logout {
     border-radius: 70px;
     margin : 280px 0px 280px 0px;
-    background-image: image(url("/home/LK/.config/wlogout/icons/logout_white.png"));
+    background-image: image(url("./icons/logout_white.png"));
 }
 
 button:hover#suspend {
     border-radius: 70px;
     margin : 280px 0px 280px 0px;
-    background-image: image(url("/home/LK/.config/wlogout/icons/suspend_white.png"));
+    background-image: image(url("./icons/suspend_white.png"));
 }
 
 button:hover#shutdown {
     border-radius: 70px;
     margin : 280px 0px 280px 0px;
-    background-image: image(url("/home/LK/.config/wlogout/icons/shutdown_white.png"));
+    background-image: image(url("./icons/shutdown_white.png"));
 }
 
 button:hover#hibernate {
     border-radius: 70px;
     margin : 280px 0px 280px 0px;
-    background-image: image(url("/home/LK/.config/wlogout/icons/hibernate_white.png"));
+    background-image: image(url("./icons/hibernate_white.png"));
 }
 
 button:hover#reboot {
     border-radius: 50px 150px 150px 50px;
     margin : 280px 220px 280px 0px;
-    background-image: image(url("/home/LK/.config/wlogout/icons/reboot_white.png"));
+    background-image: image(url("./icons/reboot_white.png"));
 }

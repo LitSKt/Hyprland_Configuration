@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # file path
-target_directory=/home/LK/.cache/cliphist/db
+target_directory=$HOME/.cache/cliphist/db
 
 # make sure it exist
 if [ -e "$target_directory" ]; then
